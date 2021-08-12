@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io('https://juliancosta11.github.io/chat-socketio-test/');
 
 //DOM elements
 let message = document.getElementById('message');
